@@ -739,7 +739,7 @@ header {
 
 /* ** HERO ** */
 .hero {
-  background-image: url("/images/hero.png");
+  background-image: url("../images/hero.png");
   color: var(--clr-text-light);
   background-position: center center;
   background-size: cover;
