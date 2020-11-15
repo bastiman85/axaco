@@ -911,7 +911,7 @@ section:not(.footer) ul {
 .footer {
   font-size: 1.125rem;
   min-height: 630px;
-  margin: 0 -1em;
+  margin: 0;
 }
 
 .footer .row {
@@ -960,7 +960,11 @@ section:not(.footer) ul {
   font-weight: bold;
 }
 
-.footer .footer__right {
+.footer__left {
+  margin-left: -1em;
+}
+
+.footer__right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -972,6 +976,7 @@ section:not(.footer) ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-left: 2px solid white;
+  margin-right: -1em;
 }
 
 .footer__social img {
@@ -991,6 +996,8 @@ section:not(.footer) ul {
   }
   .footer .footer__left {
     padding-bottom: 4em;
+    margin-left: 0;
+    margin-right: -1em;
   }
   .footer .footer__right {
     border-top: 2px solid white;
